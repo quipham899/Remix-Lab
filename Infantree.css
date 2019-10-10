@@ -1,0 +1,496 @@
+body{
+  margin: auto 0;
+  overflow-x: hidden;
+}
+video{
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  text-decoration: none;
+}
+.top-bar{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left
+  opacity: 0.75;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(42,45,36,0.9);
+}
+.top-bar ul li{
+  color: white;
+  list-style-type: none;
+  display: inline;
+  padding-right: 60px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.top-bar ul{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  margin-top: 0px;
+}
+.flash-body{
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  background-image: url(https://web.archive.org/web/20190508005921im_/https://infantree.com/wp-content/themes/infantree/img/infantree-loop.ogg);
+  height: 500px;
+  position: relative;
+}
+.flash-title{
+  background-color: rgba(66,56,34,0.66);
+  width: 1800px;
+  height: 500px;
+
+}
+.flash-body h2{
+  text-align: center;
+  width: 900px;
+  color: #E4E5DA;
+  position: relative;
+  left: 450px;
+  top: 100px;
+  z-index: 1;
+ font-size: 110px;
+ font-family: "rift", "Arial Narrow", sans-serif;
+ font-style: "rift";
+ margin-top: 0px;
+ font-weight: 700;
+ margin-bottom: 0px;
+ font-variant-east-asian: normal;
+ font-variant-ligatures: normal;
+ font-variant-numeric: normal;
+ font-variant-caps: normal;
+ font-stretch: 100%;
+}
+.build-deploy{
+  position: relative;
+  top: 100px;
+  width: 800px;
+  text-align: center;
+}
+.approach{
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 580px;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  height: 200px;
+  width: 1800px;
+  background-image: url(https://web.archive.org/web/20190508071553im_/https://infantree.com/wp-content/themes/infantree/img/mission-bkgd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.brands{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1000px;
+  width: 1700px;
+  background-color: #e2dfd7;
+  height: 100%;
+}
+.article{
+  position: absolute;
+  top: 70%;
+}
+.big-body{
+  z-index: 5;
+  position: absolute;
+  top: 5px;
+}
+.boxy{
+  font-weight: 400;
+  margin-left: 220px;
+  width: 800px;
+  font-size: 24px;
+  font-style: normal;
+  font-family: usual, "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+  font-stretch: 100%;
+}
+.boxy h2{
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+.boxy span{
+  height: 100%;
+  width: 100%;
+  border-top: 10px solid #C44B2F;
+}
+.boxy2{
+  display: flex;'
+  justify-content: space-between;
+  color: dimgray;
+  font-weight: 400;
+  margin-left: 220px;
+  width: 800px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: usual, "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+  font-stretch: 100%;
+}
+.boxy2 .arrow{
+  position: relative;
+  left: 30px;
+  top: 40px;
+}
+.tono-group{
+  color: white;
+  margin-left: 200px;
+  height: 450px;
+  width: 1300px;
+  background-color: dimgrey;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  background-image: url(https://www.tonogroup.com/wp-content/uploads/2017/02/2016_07_20_ToLucOff03_A-1-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.safer-brand{
+  color: white;
+  margin-left: 200px;
+  height: 450px;
+  width: 1300px;
+  background-color: dimgrey;
+  margin-bottom: 40px;
+  background-image: url(https://web.archive.org/web/20190507195044im_/https://infantree.com/wp-content/uploads/2018/08/safer-product-lineup-crop-wide-e1533156628407.jpg);
+  background-size: 100%;
+  background-position:  center;
+}
+.boxy2 .arrow{
+  background-color: #c7ad6d;
+}
+.Novara-Healthcare{
+  color: white;
+  margin-left: 200px;
+  height: 450px;
+  width: 1300px;
+  background-color: dimgrey;
+  margin-bottom: 40px;
+  background-image: url(https://web.archive.org/web/20190507154845im_/https://infantree.com/wp-content/uploads/2016/09/novara-chris-assessing-patient-crop-e1533156601314.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.black-box{
+  height: 100%;
+  width: 30%;
+  background-color: rgba(42,45,36,0.75);
+  margin-bottom: 50px;
+}
+.black-box h2{
+  color: white;
+  padding-left: 30px;
+  padding-top:200px;
+  font-size: 40px;
+  font-family: "rift", "Arial Narrow", sans-serif;
+  font-weight: 700;
+}
+.mini-box p{
+  position: relative;
+  right: 20px;
+}
+.black-box .arrow{
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+.tono-group .arrow{
+  position: relative;
+  left: 30px;
+}
+
+.tono-group h2{
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.safer-brand h2{
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+  .Novara-Healthcare h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.black-box:hover{
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.black-box:focus + .arrow{
+animation-name: change;
+animation-duration: 2s;
+background-color: white;
+}
+@keyframes change {
+  0%{background-color: white}
+  10%{background-color: gold}
+  100%{background-color: #c7ad6d}
+}
+@keyframes opacity{
+  0%{background-color: rgba(42,45,36,0.75)}
+  100%{background-color: rgba(42,45,36,.9)}
+}
+.mini-box{
+  padding-left: 50px;
+  width: 300px;
+}
+.mini-box p{
+  font-size: 16px;
+  font-family: "usual","Proxima Nova","Open Sans","Helvetica Neue",Helvetica,sans-serif;
+}
+.safer-brand .black-box{
+  margin-left: 912px;
+}
+.button{
+  margin-top: 75px;
+  margin-left: 530px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 230px;
+  border: 1px solid #c7ad6d;
+}
+.button a{
+  color: black;
+  padding-top: 15px;
+  font-size: 16px;
+  font-family: "usual","Proxima Nova","Open Sans","Helvetica Neue",Helvetica,sans-serif;
+  font-weight: 400;
+}
+.button:hover{
+  animation-name: change;
+  animation-duration: 2s;
+}
+@keyframes change{
+  0%{background-color:#e2dfd7}
+  10%{background-color: #c7ad6d}
+  100%{background-color: #c7ad6d}
+}
+.quote{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  width: 100%;
+  height: 340px;
+  background-color: #2a2d24;
+}
+.quote h2{
+  font-size: 24px;
+  color: #C7AD6D;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.quote h2:first-child{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "usual", "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+.quote h2:last-child{
+    font-family: "usual", "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 0px;
+  font-stretch:100%;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
+.quote p{
+  margin-left: 400px;
+  font-style: italic;
+  font-family: "freight-text-pro",Georgia,Times,serif;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+  width: 900px;
+  text-align: center;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+}
+
+.Jesse-King{
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: space-around;
+}
+.move-forward{
+  background-image: url(https://web.archive.org/web/20190508071553im_/https://infantree.com/wp-content/themes/infantree/img/mission-bkgd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  height: 340px;
+}
+.move-forward p:first-child{
+  font-size: 40px;
+  font-family: "rift", "Arial Narrow", sans-serif;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+  font-stretch: stretch;
+  font-weight: 600;
+  margin-left: 450px;
+  margin-bottom: 0px;
+  margin-top: 150px;
+}
+
+.move-forward h2{
+  font-family: "usual", "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  color: dimgray;
+  font-size: 26px;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+  font-stretch: stretch;
+  font-weight: 600;
+  margin-left: 450px;
+}
+.move-forward .arrow{
+  position: relative;
+  left: 720px;
+  bottom: 50px;
+}
+.arrow{
+  position: relative;
+  display: inline-block;
+  background-color: #c7ad6d;
+  width: 90px;
+  height: 2px;
+}
+
+.arrow::after{
+  content: "";
+  display: inline-block;
+  background-color: #c7ad6d;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  right: -4px;
+  bottom: 8px;
+  transform: rotate(45deg);
+}
+
+.arrow::before{
+  content: "";
+  display: inline-block;
+  background-color: #c7ad6d;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  right: -4px;
+  bottom: -8px;
+  transform: rotate(-45deg);
+}
+#full-logo{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  height: 75px;
+  width: 248px;
+}
+
+
+.arrow-box{
+  height: 900px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-box .arrow{
+  position: relative;
+  left: 800px;
+}
+.footer{
+  display: flex;
+  background-color: #E2DFD7;
+  position: relative;
+  width: 100%;
+  height: 130px;
+}
+.top{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 20px;
+  background-image:url(https://infantree.com/wp-content/themes/infantree/img/halftone-100.png);
+
+}
+.logo{
+  width: 500px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  height: 60px;
+  width: 60px;
+}
+.footer p{
+  font-family: "usual", "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  color: #494949;
+  font-size: 14px;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-caps: normal;
+  font-stretch: stretch;
+  font-weight: 600;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.social-media{
+  position: relative;
+  top: 70px;
+  left: 1100px;
+  white-space: nowrap;
+  height: 25px;
+  width: 25px;
+}
+.footer .button{
+  height: 50px;
+  position: relative;
+  bottom: 20px;
+  left: 360px;
+  width: 160px;
+}
+
+.footer .arrow{
+  background-color: #c7ad6d;
+}
